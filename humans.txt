@@ -1,0 +1,18 @@
+/* TEAM */
+
+Name: CERL-PoliTo
+Site: https://www.erc321.polito.it
+
+
+/* THANKS */
+
+Name: CERL@PoliTo
+Site: https://erc321.polito.it/
+
+
+/* SITE */
+
+Last Updated: 2023/10/31
+Standards: HTML5, CSS3
+Software: Sublime Text, Chrome, Jekyll, Git, Imageoptim, JPEGMini, Gulp.js, Sass
+Components: Foundation Framework, Modernizr, jQuery, Backstretch.js, Reveal

@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://cerl-polito.github.io/Open321_pages/sitemap.xml

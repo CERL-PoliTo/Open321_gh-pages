@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://cerl-polito.github.io/Open321_pages/assets/xslt/rss.xslt" ?>
+<?xml-stylesheet type="text/css" href="https://cerl-polito.github.io/Open321_pages/assets/css/rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Open321</title>
+		<description>Open321 delivers the discoveries of the ERC321 project funded by the European Research Council (ERC). This library provides efficient tools to stabilize electromagnetic integral equation solvers.</description>
+		<link>https://cerl-polito.github.io/Open321_pages/</link>
+		<atom:link href="https://cerl-polito.github.io/Open321_pages/feed.xml" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>
