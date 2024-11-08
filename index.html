@@ -249,7 +249,7 @@
 
 <div class="row">
     <h1 class="l15">Overview</h1>
-<p class="l15 r15">We deliver here the discoveries of the <a href="https://cordis.europa.eu/project/id/724846">ERC project 321</a> funded by the European Research Council.<br />
+    <p class="l15 r15">We deliver here the discoveries of the <a href="https://cordis.europa.eu/project/id/724846">ERC project 321</a> funded by the European Research Council and of the <a href="https://fare.mur.gov.it/app.php">Program FARE, CELER</a> funded by the Italian Ministry of University and Research.<br />
 The library Open321 provides efficient tools to stabilize and manipulate discrete electromagnetic integral equations. These stabilizations include low and very low frequency regularization techniques which rely on the use of the quasi-Helmholtz projectors, implemented to be compatible with fast iterative and fast direct methods. In particular, it makes use of an algebraic multigrid implementation provided by <a href="https://amgcl.readthedocs.io/en/latest/index.html">AMGCL</a> in order to compute fast matrix-vector products with the quasi-Helmholtz projectors, which is required to efficiently solve the system with iterative solvers. Moreover, it is fully compatible with standard acceleration strategies such as hierarchical matrices and fast multipole method with possibilities to provide classes implementing fast matrix-vector products instead of the full matrices of the discretized integral operators. An example of the stabilization of the electric field integral equation (EFIE) together with the solving via the library <a href="https://eigen.tuxfamily.org/">Eigen</a> is given as an example. The implementation of other integral equations directly follows.<br />
 The library has to be used within an existing integral equation solver that computes separately the integral operator matrix-vector products.</p>
 
@@ -310,21 +310,24 @@ The library has to be used within an existing integral equation solver that comp
     <footer id="footer-content" class="bg-grau">
       <div id="footer">
         <div class="row">
-          <div class="medium-5 large-5 columns">
+          <div class="medium-5 large-4 columns">
             <ul class="no-bullet">
-              <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 724846, project 321)</p>
+              <p>This project has received funding from the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 724846, project 321) and from the Italian Ministry of University and Research within the Program FARE, CELER, under Grant R187PMFXA4</p>
             </ul>
           </div><!-- /.large-6.columns -->
 
 
-          <div class="small-8 medium-4 medium-offset-1 large-4 large-offset-1 columns">
-            <img src="https://cerl-polito.github.io/Open321_pages/images/EU_logo2.png" class="aligncenter" style="object-fit: contain; margin-top: 10px">
+          <div class="small-8 small-offset-2 medium-5 medium-offset-1 large-4 large-offset-0 columns">
+            <img src="https://cerl-polito.github.io/Open321_pages/images/EU_logo2.png" class="center" style="object-fit: contain; margin-top: 10px">
           </div><!-- /.large-4.columns -->
 
-          <div class="small-4 medium-2 large-2 columns">
-            <img src="https://cerl-polito.github.io/Open321_pages/images/ERClogo.png" style="height: 80px">
+          <div class="small-6 small-offset-0 medium-3 medium-offset-0 large-2 large-offset-0 columns">
+            <img src="https://cerl-polito.github.io/Open321_pages/images/ERClogo.png" class="center" style="height: 80px">
           </div><!-- /.large-4.columns -->
 
+          <div class="small-6 small-offset-0 medium-3 medium-offset-0 large-2 large-offset-0 columns">
+              <img src="https://cerl-polito.github.io/Open321_pages/images/MUR-logo.svg.png" class="center" style="height: 80px">
+          </div><!-- /.large-4.columns -->
         </div><!-- /.row -->
 
       </div><!-- /#footer -->
